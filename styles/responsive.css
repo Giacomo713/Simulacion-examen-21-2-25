@@ -1,0 +1,49 @@
+@media only screen and (Max-width: 800px){
+    .main{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .mLeft{
+        width: 95%;
+        padding-block: 0;
+        height: 550px;
+    }
+
+    .mLeft img{
+        width: 30%;
+        height: initial;
+        padding-top: 15px;
+    }
+
+    .mRight{
+        width: 95%;
+        padding: 10px;
+        align-items: center;
+        height: 1000px;
+    }
+
+    .kit, .jacket{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 260px;
+        height: 500px;
+    }
+
+    .mRight img{
+        width: 260px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .showcase{
+        width: 80%;
+    }
+
+    .categorias{
+        padding-top: 40px;
+    }
+}
